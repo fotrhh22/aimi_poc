@@ -1,0 +1,17 @@
+{
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://ai-slop-stop-api.onrender.com/poc/api/:path*"
+    },
+    {
+      "source": "/content/:path*",
+      "destination": "https://ai-slop-stop-api.onrender.com/poc/content/:path*"
+    },
+    {
+      "source": "/health",
+      "destination": "https://ai-slop-stop-api.onrender.com/poc/health"
+    }
+  ]
+}
